@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="A Simple Minesweeper Game with JavaScript" />
+		<meta name="keywords" content="Minesweeper, JavaScript Game" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/src/assets/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/src/assets/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/src/assets/favicon-16x16.png" />
+		<link rel="manifest" href="/src/assets/site.webmanifest" />
+		<link rel="mask-icon" href="/src/assets/safari-pinned-tab.svg" color="#5bbad5" />
+		<meta name="msapplication-TileColor" content="#b91d47" />
+		<meta name="msapplication-TileImage" content="/src/assets/mstile-144x144.png" />
+		<meta name="theme-color" content="#ffffff" />
+		<title>Minesweeper</title>
+		<link rel="stylesheet" href="/dist/style.css" />
+		<script src="/src/assets/script.js" type="module"></script>
+	</head>
+	<body class="flex flex-col items-center bg-black/80 text-5xl text-white">
+		<h3 class="m-5">Minesweeper</h3>
+		<div id="subText" class="mb-2.5 text-2xl text-gray-400">Mines left: <span data-mine-count></span></div>
+		<div id="board" class="inline-grid grid-cols-[repeat(var(--board-size),60px)] grid-rows-[repeat(var(--board-size),60px)] gap-1 bg-gray-500 p-2.5"></div>
+	</body>
+</html>

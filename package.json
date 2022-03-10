@@ -1,0 +1,27 @@
+{
+	"name": "minesweeper",
+	"version": "1.0.0",
+	"description": "A Simple Minesweeper Game with JavaScript",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npx tailwindcss -i ./src/assets/style.css -o ./dist/style.css --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RezkyRizaldi/minesweeper.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/RezkyRizaldi/minesweeper/issues"
+	},
+	"homepage": "https://github.com/RezkyRizaldi/minesweeper#readme",
+	"devDependencies": {
+		"autoprefixer": "^10.4.2",
+		"postcss": "^8.4.8",
+		"prettier": "^2.5.1",
+		"prettier-plugin-tailwindcss": "^0.1.8",
+		"tailwindcss": "^3.0.23"
+	}
+}
